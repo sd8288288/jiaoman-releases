@@ -1,9 +1,9 @@
 {
-    "versionCode":  13,
-    "versionName":  "2.0.2",
-    "apk":  "apk/JiaoMan-2.0.2-release.apk",
-    "sha256":  "48eb7d06f9015840f1a62a387bca7846c95b14118e754ed418c6341aa847b0f7",
-    "size":  13086995,
-    "notes":  "新增应用内在线更新：设置里可检查新版本、下载并安装；下载后校验 SHA-256，安装前比对签名。只新增联网与安装权限。",
-    "publishedAt":  "2026-09-15T17:13:47Z"
+    "versionCode":  14,
+    "versionName":  "2.0.3",
+    "apk":  "apk/JiaoMan-2.0.3-release.apk",
+    "sha256":  "e28a2ff2cecdcc37fcdd440fc25f6cdcee88d5a7f7b7ef0bb3516d36763c3c69",
+    "size":  13086975,
+    "notes":  "修复更新源顺序：GitHub 加速镜像优先（国内直连实测更快更稳），jsDelivr 降为兜底。\n首版应用内在线更新功能。",
+    "publishedAt":  "2026-09-15T17:15:56Z"
 }
