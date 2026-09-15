@@ -1,9 +1,9 @@
 {
-    "versionCode":  16,
-    "versionName":  "2.0.5",
-    "apk":  "apk/JiaoMan-2.0.5-release.apk",
-    "sha256":  "9cadcc7c77529f654fc9e8ab2fb9a3a4778d602840b866f4e4f4cb4c42ef515b",
-    "size":  13088947,
-    "notes":  "下载加速：改为并行测速后选用最快的镜像（实测各源速度差 8 倍：209KB/s vs 1.6MB/s+），\n清单也改为并行竞速获取。另：下载完成后会记录各源速度与选用结果到日志。",
-    "publishedAt":  "2026-09-15T17:35:15Z"
+    "versionCode":  17,
+    "versionName":  "2.0.6",
+    "apk":  "apk/JiaoMan-2.0.6-release.apk",
+    "sha256":  "755feb41aea10b8da4f84d7324e1e40feac69d4e855ecfb415b9c017cc7b6644",
+    "size":  13089255,
+    "notes":  "修复清单获取：并行取所有源并选 versionCode 最大的（镜像缓存新旧不一，先返回的可能是过期清单）。\n下载仍为并行测速选最快源。",
+    "publishedAt":  "2026-09-15T17:37:59Z"
 }
