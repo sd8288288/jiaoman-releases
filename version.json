@@ -1,9 +1,9 @@
 {
-    "versionCode":  17,
-    "versionName":  "2.0.6",
-    "apk":  "apk/JiaoMan-2.0.6-release.apk",
-    "sha256":  "755feb41aea10b8da4f84d7324e1e40feac69d4e855ecfb415b9c017cc7b6644",
-    "size":  13089255,
-    "notes":  "修复清单获取：并行取所有源并选 versionCode 最大的（镜像缓存新旧不一，先返回的可能是过期清单）。\n下载仍为并行测速选最快源。",
-    "publishedAt":  "2026-09-15T17:37:59Z"
+    "versionCode":  18,
+    "versionName":  "2.0.7",
+    "apk":  "apk/JiaoMan-2.0.7-release.apk",
+    "sha256":  "76edf046059b21f9142c87ee5f3ddd6a0ad99bb06f1c31ad9fec38130e011140",
+    "size":  5105347,
+    "notes":  "包体优化：开屏图由 1904x3040 PNG（6.3MB/张）改为等比缩小到 1600 的 JPEG，\n单包从 12.48MB 降到 4.87MB（-61%），下载时间同步大幅缩短。\n另含：更新源并行测速选最快镜像、清单并行取最新。",
+    "publishedAt":  "2026-09-15T17:39:46Z"
 }
