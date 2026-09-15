@@ -1,0 +1,9 @@
+{
+    "versionCode":  13,
+    "versionName":  "2.0.2",
+    "apk":  "apk/JiaoMan-2.0.2-release.apk",
+    "sha256":  "48eb7d06f9015840f1a62a387bca7846c95b14118e754ed418c6341aa847b0f7",
+    "size":  13086995,
+    "notes":  "新增应用内在线更新：设置里可检查新版本、下载并安装；下载后校验 SHA-256，安装前比对签名。只新增联网与安装权限。",
+    "publishedAt":  "2026-09-15T17:13:47Z"
+}
