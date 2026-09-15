@@ -1,9 +1,9 @@
 {
-    "versionCode":  15,
-    "versionName":  "2.0.4",
-    "apk":  "apk/JiaoMan-2.0.4-release.apk",
-    "sha256":  "0e5e0d4daf50d389e1fea44449c2ff3679cee7163befed18d54e0029964afd4a",
-    "size":  13086971,
-    "notes":  "在线更新链路验证版本。\n新增：设置里可检查更新、下载并拉起系统安装器；下载后校验 SHA-256，安装前比对签名。\n更新源：GitHub 加速镜像优先，jsDelivr 兜底。",
-    "publishedAt":  "2026-09-15T17:18:27Z"
+    "versionCode":  16,
+    "versionName":  "2.0.5",
+    "apk":  "apk/JiaoMan-2.0.5-release.apk",
+    "sha256":  "9cadcc7c77529f654fc9e8ab2fb9a3a4778d602840b866f4e4f4cb4c42ef515b",
+    "size":  13088947,
+    "notes":  "下载加速：改为并行测速后选用最快的镜像（实测各源速度差 8 倍：209KB/s vs 1.6MB/s+），\n清单也改为并行竞速获取。另：下载完成后会记录各源速度与选用结果到日志。",
+    "publishedAt":  "2026-09-15T17:35:15Z"
 }
