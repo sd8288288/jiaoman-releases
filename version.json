@@ -2,8 +2,8 @@
     "versionCode":  19,
     "versionName":  "2.0.8",
     "apk":  "apk/JiaoMan-2.0.8-release.apk",
-    "sha256":  "6f32b4537f5ca1953f678355e875675e26abd3f2dabd153df687f5c0f8d1cea1",
-    "size":  5106171,
-    "notes":  "2.0.8：压缩包改成免复制直读（ZIP/CBZ/7z 直接用文件描述符读，不再整本复制到缓存），缓存上限 2GB 自动清理；修复 GBK 文件名编码识别与 .cbz 在选择器里点不动的问题",
-    "publishedAt":  "2026-09-19T15:18:37Z"
+    "sha256":  "b3a7c61862db5a93de16a345ebe4aa5a0ce28d0ca707cd2c06b3aa80f6a27206",
+    "size":  5106179,
+    "notes":  "2.0.8：压缩包改为免复制直读（ZIP/CBZ/7z 直接用文件描述符读取，不再整本复制到缓存），缓存上限 2GB 超限自动清理；修复 GBK 文件名编码识别、.cbz 在选择器里点不动的问题；无图压缩包不再白复制一份缓存",
+    "publishedAt":  "2026-09-19T15:23:17Z"
 }
