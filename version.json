@@ -1,9 +1,9 @@
 {
-    "versionCode":  21,
-    "versionName":  "2.0.10",
-    "apk":  "apk/JiaoMan-2.0.10-release.apk",
-    "sha256":  "8f9f3748e32d84de75db9b94943f757ee2bcb89b57c6a3ad2a0deafd71d216f3",
-    "size":  7081337,
-    "notes":  "2.0.10：桌面小组件改为海报式（封面铺满+底部遮罩，竖版 3×2 与横版 4×1，尺寸按平板实测栅格），修复封面加载不出来与组件加载失败；修复设置页整页偏左",
-    "publishedAt":  "2026-09-19T17:07:26Z"
+    "versionCode":  22,
+    "versionName":  "2.0.11",
+    "apk":  "apk/JiaoMan-2.0.11-release.apk",
+    "sha256":  "9c3e832fce34a9568dbdaccb0a91e5841f4b6211e36e40d88c6753a768286260",
+    "size":  3605351,
+    "notes":  "2.0.11：开启 R8 代码与资源缩减，安装包从 6.75MB 降到 3.44MB（下载更快、冷启动更好），同时保留行号便于排查崩溃；功能与 2.0.10 一致",
+    "publishedAt":  "2026-09-19T17:12:33Z"
 }
