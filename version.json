@@ -1,9 +1,51 @@
 {
-    "versionCode":  22,
-    "versionName":  "2.0.11",
-    "apk":  "apk/JiaoMan-2.0.11-release.apk",
-    "sha256":  "9c3e832fce34a9568dbdaccb0a91e5841f4b6211e36e40d88c6753a768286260",
-    "size":  3605351,
-    "notes":  "2.0.11：开启 R8 代码与资源缩减，安装包从 6.75MB 降到 3.44MB（下载更快、冷启动更好），同时保留行号便于排查崩溃；功能与 2.0.10 一致",
-    "publishedAt":  "2026-09-19T17:12:33Z"
+    "versionCode":  23,
+    "versionName":  "2.0.12",
+    "apk":  "apk/JiaoMan-2.0.12-release.apk",
+    "sha256":  "370e5cb75a39bbc8c1878d3cb372b5c1d57d692bc27387dc3374bb5c0afabe01",
+    "size":  3608255,
+    "notes":  "2.0.12：更新说明改为累计展示，从旧版本升上来能看到中间所有版本的改动",
+    "publishedAt":  "2026-09-19T17:19:53Z",
+    "changes":  [
+                    {
+                        "versionCode":  23,
+                        "versionName":  "2.0.12",
+                        "notes":  "更新说明改为累计展示：从旧版本升上来，能看到中间所有版本的改动，而不是只看到最新那一条"
+                    },
+                    {
+                        "versionCode":  22,
+                        "versionName":  "2.0.11",
+                        "notes":  "包体减半：开启 R8 代码与资源缩减，安装包 6.75MB → 3.44MB；下载更快、冷启动更顺畅；崩溃日志保留行号便于排查"
+                    },
+                    {
+                        "versionCode":  21,
+                        "versionName":  "2.0.10",
+                        "notes":  "桌面小组件重做：小组件改为海报式，封面铺满整张卡，底部渐变上压书名与进度；竖版 3×2 与横版 4×1 两种版式，尺寸按平板实测栅格，可拖动改大小；修复封面始终空白、组件显示加载失败、设置页整页偏左"
+                    },
+                    {
+                        "versionCode":  20,
+                        "versionName":  "2.0.9",
+                        "notes":  "界面与阅读体验：书架与设置跟随系统深色模式，可选跟随系统/浅色/深色；长按卡片多选，批量收藏、标记已读、移除，移除进回收站可撤销；新增阅读统计与自动滚动；支持 CBT/TAR 漫画包，与 ZIP/7z 一样免复制直读；新增重复书检测、继续阅读桌面小组件、长按图标快捷方式；设置页改为 Material 3 分组卡片"
+                    },
+                    {
+                        "versionCode":  19,
+                        "versionName":  "2.0.8",
+                        "notes":  "不吃磁盘：ZIP/CBZ/7z 改为免复制直读，不再整本复制到缓存；缓存上限 2GB 超限自动清理；修复 GBK 文件名编码识别与 .cbz 在选择器里点不动的问题"
+                    },
+                    {
+                        "versionCode":  18,
+                        "versionName":  "2.0.7",
+                        "notes":  "包体优化：开屏图由 PNG 等比缩为 JPEG，单包 12.48MB 降到 4.87MB；更新源改为并行测速选最快镜像"
+                    },
+                    {
+                        "versionCode":  17,
+                        "versionName":  "2.0.6",
+                        "notes":  "修复清单获取：并行取所有源并选 versionCode 最大的，避免镜像缓存新旧不一"
+                    },
+                    {
+                        "versionCode":  16,
+                        "versionName":  "2.0.5",
+                        "notes":  "下载加速：并行测速后选用最快镜像，实测各源速度差 8 倍"
+                    }
+                ]
 }
