@@ -1,9 +1,9 @@
 {
-    "versionCode":  19,
-    "versionName":  "2.0.8",
-    "apk":  "apk/JiaoMan-2.0.8-release.apk",
-    "sha256":  "b3a7c61862db5a93de16a345ebe4aa5a0ce28d0ca707cd2c06b3aa80f6a27206",
-    "size":  5106179,
-    "notes":  "2.0.8：压缩包改为免复制直读（ZIP/CBZ/7z 直接用文件描述符读取，不再整本复制到缓存），缓存上限 2GB 超限自动清理；修复 GBK 文件名编码识别、.cbz 在选择器里点不动的问题；无图压缩包不再白复制一份缓存",
-    "publishedAt":  "2026-09-19T15:23:17Z"
+    "versionCode":  20,
+    "versionName":  "2.0.9",
+    "apk":  "apk/JiaoMan-2.0.9-release.apk",
+    "sha256":  "298575e76c4b860e80f67a5671215b47b1640802e45652ab2d7f2abc3c458d40",
+    "size":  7074569,
+    "notes":  "2.0.9：书架/设置跟随系统深色（可选浅色/深色）、设置页 Material 3 重排、旋转后网格自动重算；新增长按多选+回收站、重复书检测、阅读统计、自动滚动、CBT(tar) 免复制直读、自动裁白边（默认关）、继续阅读桌面小组件与长按快捷方式；更新下载支持进度通知",
+    "publishedAt":  "2026-09-19T16:14:09Z"
 }
