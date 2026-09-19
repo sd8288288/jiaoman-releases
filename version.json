@@ -1,9 +1,9 @@
 {
-    "versionCode":  18,
-    "versionName":  "2.0.7",
-    "apk":  "apk/JiaoMan-2.0.7-release.apk",
-    "sha256":  "76edf046059b21f9142c87ee5f3ddd6a0ad99bb06f1c31ad9fec38130e011140",
-    "size":  5105347,
-    "notes":  "包体优化：开屏图由 1904x3040 PNG（6.3MB/张）改为等比缩小到 1600 的 JPEG，\n单包从 12.48MB 降到 4.87MB（-61%），下载时间同步大幅缩短。\n另含：更新源并行测速选最快镜像、清单并行取最新。",
-    "publishedAt":  "2026-09-15T17:39:46Z"
+    "versionCode":  19,
+    "versionName":  "2.0.8",
+    "apk":  "apk/JiaoMan-2.0.8-release.apk",
+    "sha256":  "6f32b4537f5ca1953f678355e875675e26abd3f2dabd153df687f5c0f8d1cea1",
+    "size":  5106171,
+    "notes":  "2.0.8：压缩包改成免复制直读（ZIP/CBZ/7z 直接用文件描述符读，不再整本复制到缓存），缓存上限 2GB 自动清理；修复 GBK 文件名编码识别与 .cbz 在选择器里点不动的问题",
+    "publishedAt":  "2026-09-19T15:18:37Z"
 }
